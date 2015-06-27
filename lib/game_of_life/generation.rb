@@ -1,6 +1,7 @@
 class GameOfLife::Generation
   def initialize(locations)
     # lost implementation
+    
   end
 
   # lost implementation
