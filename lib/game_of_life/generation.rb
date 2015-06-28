@@ -1,10 +1,13 @@
 class GameOfLife::Generation
   def initialize(locations)
-    # lost implementation
+    @locations = locations
     
   end
-
-  # lost implementation
+  
+  def self.live_locations
+  	new(locations)
+  end
+  
 
   def self.with_live_cells_at(locations)
     new(locations)
